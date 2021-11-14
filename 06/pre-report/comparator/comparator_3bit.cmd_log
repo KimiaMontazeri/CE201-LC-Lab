@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/desktop things/uni/TERM 3/Logic Circuits/lab/experiments/06/pre-report/comparator/comparator_3bit.xst" -ofn "D:/desktop things/uni/TERM 3/Logic Circuits/lab/experiments/06/pre-report/comparator/comparator_3bit.syr" 

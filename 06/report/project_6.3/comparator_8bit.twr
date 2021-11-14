@@ -1,0 +1,100 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n 3
+-fastpaths -xml comparator_8bit.twx comparator_8bit.ncd -o comparator_8bit.twr
+comparator_8bit.pcf
+
+Design file:              comparator_8bit.ncd
+Physical constraint file: comparator_8bit.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a0             |eq             |    6.112|
+a0             |gt             |    6.454|
+a0             |lt             |    5.898|
+a1             |eq             |    5.968|
+a1             |gt             |    6.069|
+a1             |lt             |    5.511|
+a2             |eq             |    5.588|
+a2             |gt             |    6.249|
+a2             |lt             |    5.692|
+a3             |eq             |    6.113|
+a3             |gt             |    6.097|
+a3             |lt             |    5.857|
+a4             |eq             |    5.844|
+a4             |gt             |    6.072|
+a4             |lt             |    5.997|
+a5             |eq             |    5.987|
+a5             |gt             |    6.325|
+a5             |lt             |    6.247|
+a6             |eq             |    6.628|
+a6             |gt             |    6.665|
+a6             |lt             |    6.329|
+a7             |eq             |    6.237|
+a7             |gt             |    6.274|
+a7             |lt             |    5.952|
+b0             |eq             |    5.888|
+b0             |gt             |    6.087|
+b0             |lt             |    5.539|
+b1             |eq             |    5.652|
+b1             |gt             |    6.360|
+b1             |lt             |    5.804|
+b2             |eq             |    5.397|
+b2             |gt             |    6.615|
+b2             |lt             |    6.059|
+b3             |eq             |    6.015|
+b3             |gt             |    5.999|
+b3             |lt             |    5.871|
+b4             |eq             |    6.351|
+b4             |gt             |    6.335|
+b4             |lt             |    6.081|
+b5             |eq             |    6.207|
+b5             |gt             |    6.230|
+b5             |lt             |    6.153|
+b6             |eq             |    6.050|
+b6             |gt             |    6.087|
+b6             |lt             |    5.759|
+b7             |eq             |    6.510|
+b7             |gt             |    6.547|
+b7             |lt             |    6.215|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Nov 14 16:56:42 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4997 MB
+
+
+
